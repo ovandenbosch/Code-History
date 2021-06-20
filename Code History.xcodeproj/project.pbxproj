@@ -10,8 +10,10 @@
 		86815182267EBDD000354D5A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86815181267EBDD000354D5A /* Question.swift */; };
 		86815184267EBFDE00354D5A /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86815183267EBFDE00354D5A /* ChoiceTextView.swift */; };
 		86815186267FD87400354D5A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86815185267FD87400354D5A /* Game.swift */; };
+		8681518A267FE4EF00354D5A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86815189267FE4EF00354D5A /* WelcomeView.swift */; };
+		8681518C267FE89000354D5A /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8681518B267FE89000354D5A /* GameColor.swift */; };
 		86D84C2E267258B90010DA92 /* Code_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D84C2D267258B90010DA92 /* Code_HistoryApp.swift */; };
-		86D84C30267258B90010DA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D84C2F267258B90010DA92 /* ContentView.swift */; };
+		86D84C30267258B90010DA92 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D84C2F267258B90010DA92 /* GameView.swift */; };
 		86D84C32267258BB0010DA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D84C31267258BB0010DA92 /* Assets.xcassets */; };
 		86D84C35267258BB0010DA92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D84C34267258BB0010DA92 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -20,9 +22,11 @@
 		86815181267EBDD000354D5A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		86815183267EBFDE00354D5A /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		86815185267FD87400354D5A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		86815189267FE4EF00354D5A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8681518B267FE89000354D5A /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 		86D84C2A267258B90010DA92 /* Code History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D84C2D267258B90010DA92 /* Code_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_HistoryApp.swift; sourceTree = "<group>"; };
-		86D84C2F267258B90010DA92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86D84C2F267258B90010DA92 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		86D84C31267258BB0010DA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86D84C34267258BB0010DA92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86D84C36267258BB0010DA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,8 +55,10 @@
 		86815188267FD8C800354D5A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				86D84C2F267258B90010DA92 /* ContentView.swift */,
+				86D84C2F267258B90010DA92 /* GameView.swift */,
 				86815183267EBFDE00354D5A /* ChoiceTextView.swift */,
+				86815189267FE4EF00354D5A /* WelcomeView.swift */,
+				8681518B267FE89000354D5A /* GameColor.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,8 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				86815182267EBDD000354D5A /* Question.swift in Sources */,
+				8681518A267FE4EF00354D5A /* WelcomeView.swift in Sources */,
 				86815186267FD87400354D5A /* Game.swift in Sources */,
-				86D84C30267258B90010DA92 /* ContentView.swift in Sources */,
+				86D84C30267258B90010DA92 /* GameView.swift in Sources */,
+				8681518C267FE89000354D5A /* GameColor.swift in Sources */,
 				86815184267EBFDE00354D5A /* ChoiceTextView.swift in Sources */,
 				86D84C2E267258B90010DA92 /* Code_HistoryApp.swift in Sources */,
 			);
