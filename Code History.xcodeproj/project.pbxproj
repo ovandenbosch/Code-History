@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86815182267EBDD000354D5A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86815181267EBDD000354D5A /* Question.swift */; };
 		86D84C2E267258B90010DA92 /* Code_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D84C2D267258B90010DA92 /* Code_HistoryApp.swift */; };
 		86D84C30267258B90010DA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D84C2F267258B90010DA92 /* ContentView.swift */; };
 		86D84C32267258BB0010DA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D84C31267258BB0010DA92 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86815181267EBDD000354D5A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		86D84C2A267258B90010DA92 /* Code History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D84C2D267258B90010DA92 /* Code_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_HistoryApp.swift; sourceTree = "<group>"; };
 		86D84C2F267258B90010DA92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				86D84C2D267258B90010DA92 /* Code_HistoryApp.swift */,
 				86D84C2F267258B90010DA92 /* ContentView.swift */,
+				86815181267EBDD000354D5A /* Question.swift */,
 				86D84C31267258BB0010DA92 /* Assets.xcassets */,
 				86D84C36267258BB0010DA92 /* Info.plist */,
 				86D84C33267258BB0010DA92 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86815182267EBDD000354D5A /* Question.swift in Sources */,
 				86D84C30267258B90010DA92 /* ContentView.swift in Sources */,
 				86D84C2E267258B90010DA92 /* Code_HistoryApp.swift in Sources */,
 			);
