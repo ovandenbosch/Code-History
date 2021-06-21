@@ -9,6 +9,14 @@ import SwiftUI
 
 // 1
 class GameViewModel: ObservableObject {
+    
+    var correctGuesses: Int {
+        game.guessCount.correct
+    }
+    
+    var incorrectGuesses: Int {
+        game.guessCount.incorrect
+    }
  
   // MARK: - Published properties
   // 2
@@ -23,4 +31,40 @@ class GameViewModel: ObservableObject {
   var questionProgressText: String {
     "\(game.currentQuestionIndex + 1) / \(game.numberOfQuestions)"
   }
+    
+    // 1
+   var guessWasMade: Bool {
+        if let _ = game.guesses[currentQuestion] {
+            return true
+        } else {
+            return false
+        }
+    }
+     
+    var gameIsOver: Bool {
+        game.isOver
+    }
+    // MARK: - Internal Methods
+    // 2
+    func makeGuess(atIndex index: Int) {
+            game.makeGuessForCurrentQuestion(atIndex: index)
+    }
+    // 3
+    func displayNextScreen() {
+            game.updateGameStatus()
+        }
+    
+    func color(forOptionIndex optionIndex: Int) -> Color {
+             if let guessedIndex = game.guesses[currentQuestion] {
+                 if guessedIndex != optionIndex {
+                     return GameColor.main
+                 } else if guessedIndex == currentQuestion.correctAnswerIndex {
+                     return GameColor.correctGuess
+                 } else {
+                     return GameColor.incorrectGuess
+                 }
+             } else {
+                 return GameColor.main
+             }
+         }
 }
